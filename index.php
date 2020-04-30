@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="icon" href="ti.jpg">
+        <title> match predictor</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">    
+            
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+        <!-- css file link -->
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <nav class="navbar navbar-dark navbar-expand-sm sticky-top bg-primary">
+            <div class="container-fluid">
+              <button class="navbar-toggler  " type="button" data-toggle="collapse" data-target="#Navbar">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <a class="navbar-brand" href="index.php"><img src="logo.jfif">Match Prediction</a>
+              <div class="collapse navbar-collapse mr-5" id="Navbar">
+                <ul class="navbar-nav ml-auto ">
+                  <li class="nav-item"><a href="#">Home</a></li>
+                  <!-- <li class="nav-item"><a href="pre.html">Prediction</a></li> -->
+                  <li class="nav-item"><a href="contact.php">Contacts</a></li> 
+                  <li class="nav-item"><a href="ABOUT.php">About Us</a></li>
+                  <li class="nav-item"><a href="form2.php">Login</a></li> 
+                  <li class="nav-item"><a href="register.php">SignUp</a></li> 
+                </ul>
+              </div> 
+            </div>
+        </nav>
+        <div class="container-fluid">
+          <div class="row ">
+            <div class="  col-md-6 col-sm-12">
+              <div class="carousel slide" data-ride="carousel" id="slide">
+                <ol class="carousel-indicators">
+                  <li data-target="#slide" data-slide-to="0" class="active"></li>
+                  <li data-target="#slide" data-slide-to="1"></li>
+                  <li data-target="#slide" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="ipl1.jpg" class="d-block w-120 imgr" alt="">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5></h5>
+                      <p></p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="ipl2.jpg" class="d-block w-100 imgr" alt="">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5></h5>
+                      <p></p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="ipl3.jpg" class="d-block w-100 imgr" alt="">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5></h5>
+                      <p></p>
+                    </div>
+                  </div>
+                </div>
+                <a class="carousel-control-prev" href="#slide" role="button" data-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#slide" role="button" data-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Next</span>
+                </a>
+              </div>
+            </div>
+            <div class=" col-md-6 col-sm-12">
+              <h2 class="headi">Cricket</h2>
+              <p>Cricket is a bat-and-ball game played between two teams of eleven players on a field at the centre of which is a 20-metre (22-yard) pitch with a wicket at each end, each comprising two bails balanced on three stumps. The batting side scores runs by striking the ball bowled at the wicket with the bat, while the bowling and fielding side tries to prevent this and dismiss each player (so they are "out"). Means of dismissal include being bowled, when the ball hits the stumps and dislodges the bails, and by the fielding side catching the ball after it is hit by the bat, but before it hits the ground. When ten players have been dismissed, the innings ends and the teams swap roles. The game is adjudicated by two umpires, aided by a third umpire and match referee in international matches. They communicate with two off-field scorers who record the match's statistical information.
+                There are various formats ranging from Twenty20, played over a few hours with each team batting for a single innings of 20 overs, to Test matches, played over five days with unlimited overs and the teams each batting for two innings of unlimited length. Traditionally cricketers play in all-white kit, but in limited overs cricket they wear club or team colours. In addition to the basic kit, some players wear protective gear to prevent injury caused by the ball, which is a hard, solid spheroid made of compressed leather with a slightly raised sewn seam enclosing a cork core which is layered with tightly wound string.
+              </p>  
+              <div>
+                <h6 class="headi">
+                  <p>NOTE*:<marquee behavior="alternate">If u want to predict the result you should have your account.</marquee></p>
+                  <h6>-> First you login or SignUp on this site. So <a href="form2.html">Click here*</a></h6>
+                </h6>
+              </div>
+            </div>  
+          </div>
+        </div>
+        
+        <footer class="footer bg-primary">
+                <div class="container-fluid">
+                <div class="row justify-content-center">             
+                    <div class="col-auto">
+                        <p>© Copyright 2020 Match Predictor</p>
+                    </div>
+            </div>
+           </div>
+        </footer>
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+      
+    </body>
+        
+</html>
